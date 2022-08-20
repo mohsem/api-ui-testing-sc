@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="33.547">
+    <testcase classname="Pet Store API" name="Pet Store Inventory Checks" time="4.705">
+        <system-out><![CDATA[When I request inventory details from store.................................passed
+Then I should see the store inventory data..................................passed
+When I add different pets to the store with "nohup" and "available".........passed
+Then I should see available pet count increased.............................passed
+When I delete one of the pets...............................................passed
+Then I should see available pet count decreased.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Pet Store API" name="Pet Store Inventory Checks 2" time="3.442">
+        <system-out><![CDATA[When I request inventory details from store.................................passed
+Then I should see the store inventory data..................................passed
+When I add different pets to the store with "kara" and "available"..........passed
+Then I should see available pet count increased.............................passed
+When I delete one of the pets...............................................passed
+Then I should see available pet count decreased.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Pet Store API" name="User Operations" time="4.058">
+        <system-out><![CDATA[When I create a user........................................................passed
+Then I can receive user details.............................................passed
+When I change user name with "ankaraliKovboy"...............................passed
+Then I can receive changed user details.....................................passed
+When I delete registered user...............................................passed
+Then I should not receive user details for deleted user.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Pet Store API" name="Pet Store Order" time="2.062">
+        <system-out><![CDATA[When I add different pets to the store with "nohup" and "available".........passed
+And I place an order to store...............................................passed
+Then I should find order details............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Playground Scenarios" name="Dynamic Id" time="6.271">
+        <system-out><![CDATA[When I go to test page......................................................passed
+And I navigate to "Dynamic ID" page.........................................passed
+Then I should be able to click the button...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Playground Scenarios" name="Delayed Load" time="8.61">
+        <system-out><![CDATA[When I go to test page......................................................passed
+And I navigate to "Load Delay" page.........................................passed
+Then I should be able to click the button...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Playground Scenarios" name="Hidden Layers" time="4.261">
+        <system-out><![CDATA[When I go to test page......................................................passed
+And I navigate to "Hidden Layers" page......................................passed
+Then I should be able to click to the green button..........................passed
+And I should be able to click the button....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
